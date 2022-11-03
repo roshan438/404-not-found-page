@@ -1,0 +1,120 @@
+.wrapper{
+    max-height: 1080px;
+    max-width: 1440px;
+}
+.header{
+    height: 265px;
+}
+.header p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 77px;
+    padding-top: 40px;
+}
+.body_container{
+    height: 815px;
+    display: flex;
+}
+.logo_container{
+    width: 720px;
+}
+.logo{
+    width: 720px;
+}
+
+#logo{
+    margin-left: 77px;
+    width: 540px;
+}
+.content{
+    width: 720px;
+
+}
+.heading h1{
+    font-size: 64px;
+    line-height: 94.78px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.para{
+    margin-top: 36px;
+    width: 381px;
+    height: 108px;
+}
+.para p{
+    font-size: 24px;
+    line-height: 35.54px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.button{
+    margin-top: 64px;
+    height: 68px;
+    width: 216px;
+    background-color: #333333;
+    
+}
+.button a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20.73px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* media queries */
+@media only screen and (max-width : 600px){
+    .wrapper{
+        max-height: 1080px;
+        max-width: 100%;
+    }
+    .header{
+        height: 109px;
+    }
+    .header p{
+        padding-left: 24px;
+        padding-top: 20px;
+    }
+    .body_container{
+        height: 840px;
+        display:block;
+    }
+    .logo_container, .logo, .content{
+        width: 100%;
+    }
+    .logo_container{
+        margin: auto;
+        text-align: center;
+    }
+    #logo{
+        margin: auto;
+        width: 286.83px;
+    }
+    .content{
+       padding-left: 24px;
+    
+    }
+    .heading h1{
+        font-size: 48px;
+        line-height: 71.09px;
+    
+    }
+    .para p{
+        font-size: 18px;
+        line-height: 26.66px;
+    
+    }
+    .button{
+        margin-top: 66px;
+        
+    }
+}
